@@ -14,11 +14,11 @@ else:
 
 while True:
     print(name + ', how old are you?') #pyta o wiek
-    Wiek = input() #podajesz wiek
+    age = input() #podajesz wiek
 
     try: 
-        int(wiek)
-        if int(wiek) <= 99 and int(wiek) > 0: #sprawdza czy jest to liczba od 0 do 99 i przerywa pętle
+        int(age)
+        if int(age) <= 99 and int(age) > 0: #sprawdza czy jest to liczba od 0 do 99 i przerywa pętle
             break
         else:
             print('Are you sure?') #podaje komunikat jeśli jest poza przedziałem
@@ -28,5 +28,5 @@ while True:
 
 print('You born in ' + str(2020 - int(wiek))) #podaje datę urodzenia
 
-#Radziu pamietaj o prawidlowym nazywaniu zmiennych malymi_literami_z_daszami
+#Radziu pamietaj o prawidlowym nazywaniu zmiennych malymi_literami_z_daszami i nie mieszaj jezykow
 
